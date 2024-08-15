@@ -1,13 +1,13 @@
 # Frontend Mentor - Clipboard landing page solution
 
-This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Links](#links)
-- [Built with](#built-with)
-- [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -21,6 +21,9 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - CSS3: Custom CSS for layout and styling.
 - Google Fonts: Fonts imported from Google Fonts for typography.
 - Responsive Design: Media queries for mobile and desktop views.
+
+
+
 
 ### What I learned
 
@@ -57,6 +60,7 @@ After completing this landing page project, I plan to further enhance my skills 
 
 - Frontend Mentor - [@hanifanwary](https://www.frontendmentor.io/profile/@hanifanwary)
 - Instagram - [@hanifanwary17](https://www.Instagram.com/@hanifanwary17)
+
 
 ## Acknowledgments
 

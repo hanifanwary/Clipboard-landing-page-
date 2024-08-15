@@ -1,0 +1,669 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vh;
+}
+
+h1 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+}
+
+.container .main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+
+  background-image: url(images/bg-header-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .main h1 {
+  max-width: 90%;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-weight: 600;
+}
+
+.container .main p {
+  max-width: 90%;
+  margin: auto;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+}
+
+.container .main .download {
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.container .main .download button {
+  padding: 10px;
+}
+
+.container .main .download button:nth-child(1) {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.container .main .download button:nth-child(1):hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.container .main .download button:nth-child(1):active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.container .main .download button:nth-child(2) {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.container .main .download button:nth-child(2):hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.container .main .download button:nth-child(2):active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+/* about */
+
+.about {
+  width: 100vw;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.about .about1 .keep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.about .about1 .keep h1 {
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+  font-weight: 600;
+}
+
+.about .about1 .keep p {
+  max-width: 70%;
+}
+
+.about2 {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 30px;
+}
+
+.about2 .detileText {
+  max-width: 100vw;
+}
+
+.about2 .detileText .one h1 {
+  max-width: 90%;
+}
+
+.about2 .detileText .two h1 {
+  max-width: 90%;
+}
+
+.about2 .detileText .three h1 {
+  max-width: 90%;
+}
+
+.about2 .detileText .one p {
+  max-width: 70%;
+  text-align: justify;
+}
+
+.about2 .detileText .two p {
+  max-width: 100%;
+  text-align: justify;
+}
+
+.about2 .detileText .three p {
+  max-width: 80%;
+  text-align: justify;
+}
+
+.about2 .heroSide img {
+  max-width: 50vw;
+}
+
+/* service */
+
+.service {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.service .access h1 {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.service .access p {
+  margin: auto;
+  text-align: center;
+  max-width: 70%;
+}
+
+.service .herocenter img {
+  max-width: 100vw;
+  margin: auto;
+}
+
+/* sponsor */
+
+.sponsor {
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sponsor .supercharge h1 {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.sponsor .supercharge p {
+  margin: auto;
+  text-align: center;
+  max-width: 70%;
+}
+
+.sponsor .detail {
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 10px;
+
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.sponsor .detail .A img {
+  max-width: 100%;
+  position: relative;
+  margin-left: 50%;
+  margin-right: 50%;
+  padding-bottom: 30px;
+}
+
+.sponsor .detail .A h1 {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.sponsor .detail .A p {
+  margin: auto;
+  text-align: center;
+  max-width: 70%;
+  line-height: 20px;
+}
+
+.sponsor .detail .B img {
+  max-width: 100%;
+  position: relative;
+  margin-left: 45%;
+  margin-right: 55%;
+  padding-bottom: 30px;
+}
+
+.sponsor .detail .B h1 {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.sponsor .detail .B p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 100%;
+  line-height: 20px;
+}
+
+.sponsor .detail .C img {
+  max-width: 100%;
+  position: relative;
+  margin-left: 45%;
+  margin-right: 55%;
+  padding-bottom: 30px;
+}
+
+.sponsor .detail .C h1 {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.sponsor .detail .C p {
+  margin: auto;
+  text-align: center;
+  max-width: 100%;
+  line-height: 20px;
+}
+
+.sponsor .imgSpon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.sponsor .imgSpon img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* PreFooters */
+
+.Prefooters {
+  max-width: 100vw;
+}
+
+.Prefooters .PrefootersLink {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.Prefooters .PrefootersLink h1 {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.Prefooters .PrefootersLink p {
+  margin: auto;
+  text-align: center;
+  max-width: 70%;
+  line-height: 20px;
+}
+
+.Prefooters .PrefootersLink .link {
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.Prefooters .PrefootersLink .link button {
+  padding: 10px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.Prefooters .PrefootersLink .link button:nth-child(1) {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.Prefooters .PrefootersLink .link button:nth-child(1):hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.Prefooters .PrefootersLink .link button:nth-child(1):active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.Prefooters .PrefootersLink .link button:nth-child(2) {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.Prefooters .PrefootersLink .link button:nth-child(2):hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.Prefooters .PrefootersLink .link button:nth-child(2):active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+/* footers */
+.footers {
+  width: 95vw;
+  display: grid;
+  grid-template-columns: min-content 1fr 1fr;
+}
+
+.footers img {
+  max-width: 130%;
+  position: relative;
+  padding-left: 30px;
+}
+
+.footers .Faqs {
+  padding-left: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footers .Faqs a {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.footers .Faqs a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.footers .sosmed {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.footers .sosmed a:nth-child(1)::after {
+  content: url(images/icon-facebook.svg);
+}
+
+.footers .sosmed a:nth-child(2)::after {
+  content: url(images/icon-twitter.svg);
+}
+
+.footers .sosmed a:nth-child(3)::after {
+  content: url(images/icon-instagram.svg);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) and (max-width: 375px) {
+  .container .main {
+    max-width: 100vw;
+    background-image: url(images/bg-header-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container .main .download {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+  }
+
+  .about .about2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 25%;
+    padding-right: 25%; */
+  }
+
+  .about .about2 .detileText {
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .about .about2 .detileText .one p {
+    max-width: 100%;
+  }
+
+  .about .about2 .detileText .two p {
+    max-width: 100%;
+  }
+
+  .about .about2 .detileText .three p {
+    max-width: 100%;
+  }
+
+  .about .about2 .detileText p {
+    text-align: center;
+  }
+
+  .about .about2 img {
+    max-width: 90vw;
+    padding-left: 5%;
+  }
+
+  .sponsor .detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sponsor .detail .A img {
+    max-width: 100vw;
+    position: relative;
+    margin-left: 50%;
+    margin-right: 30%;
+    padding-bottom: 30px;
+  }
+
+  .sponsor .detail .A h1 {
+    margin: auto;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .sponsor .detail .A p {
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    line-height: 20px;
+  }
+
+  .sponsor .detail .B img {
+    max-width: 100%;
+    position: relative;
+    margin-left: 45%;
+    margin-right: 55%;
+    padding-bottom: 30px;
+  }
+
+  .sponsor .detail .B h1 {
+    margin: auto;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .sponsor .detail .B p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100%;
+    line-height: 20px;
+  }
+
+  .sponsor .detail .C img {
+    max-width: 100%;
+    position: relative;
+    margin-left: 45%;
+    margin-right: 55%;
+    padding-bottom: 30px;
+  }
+
+  .sponsor .detail .C h1 {
+    margin: auto;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .sponsor .detail .C p {
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    line-height: 20px;
+  }
+
+  .sponsor .imgSpon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sponsor .imgSpon img {
+    max-width: 50vw;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Prefooters .PrefootersLink .link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footers {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footers .footersImg {
+    padding-right: 5px;
+    margin: auto;
+  }
+
+  .footers .Faqs {
+    max-width: 100vw;
+    padding-right: 50px;
+    margin: auto;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footers .Faqs a {
+    margin: auto;
+  }
+
+  .footers .sosmed {
+    padding-left: 20px;
+    margin: auto;
+  }
+}
